@@ -4,10 +4,12 @@ if (isNaN(x)) {
   console.log("Missing number of occurrences");
 } else {
   let i = 0;
-  let result = "";
+  let output = "";
   while (i < x) {
-    result += "C is fun\n";
+    output += "C is fun\n";
     i++;
   }
-  console.log(result.trim());
+  // Only print once
+  console.log(output.trimEnd());
 }
+
