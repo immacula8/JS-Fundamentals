@@ -10,6 +10,6 @@ if (isNaN(x)) {
     i++;
   }
   // Only print once
-  console.log(output.trimEnd());
+  console.log(output);
 }
 
