@@ -7,10 +7,7 @@ const messages = [
 let output = "";
 
 for (let i = 0; i < messages.length; i++) {
-    output += messages[i];
-    if(i < messages.length - 1) {
-        output += "\n";
-    }
+    output += messages[i] + "\n";
 }
 
 console.log(output);
